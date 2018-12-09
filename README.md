@@ -39,3 +39,25 @@ LWF 首次提交
   那就先
     1. git reset HEAD 文件名称   撤销暂存区的文件
     2. git checkout -- 文件名称 撤销修改工作区的文件
+
+8.删除文件
+  git rm
+
+
+
+
+远程库的文件
+
+1. 把本地文件要推送到远程库里
+
+   先建立
+   git remote add origin git@github.com:michaelliao/learngit.git
+   
+   添加后，远程库的名字就是origin，这是Git默认的叫法，也可以改成别的，但是origin这个名字一看就知道是远程库。
+
+    下一步，就可以把本地库的所有内容推送到远程库上：
+
+    	$ git push -u origin master
+
+
+
