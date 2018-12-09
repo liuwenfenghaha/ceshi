@@ -15,4 +15,21 @@ LWF 首次提交
 3.配置github上添加ssh key deploy keys
 
 4. git clone ssh地址
-    
+
+版本提交
+5. git add 添加到暂存区
+   git commit -m '描述'  添加到版本库
+   git status 查看状态
+
+
+6. 回退到之前版本
+   git reset --hard HEAD^ 回退上个版本
+   git reset --hard commitID 版本号
+   git log 查看日志  --pretty-oneline简化
+   git reflog重返未来
+
+   
+
+
+
+
